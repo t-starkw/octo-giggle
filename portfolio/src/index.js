@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { ThemeProvider } from './components/themeContext';
 import Navbar from './components/nav';
+import { BrowserRouter } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <ThemeProvider>
       <body className="bg-white dark:bg-black transition-all">
         <main>
@@ -18,8 +21,8 @@ ReactDOM.render(
         </main>
       </body>
     </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
