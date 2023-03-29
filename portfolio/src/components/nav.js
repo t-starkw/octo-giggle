@@ -3,6 +3,8 @@ import Toggle from './toggle';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 export default function Navbar() {
+
+  
   return (
     <header className="text-gray-700 bg-white dark:bg-black body-font ">
       <div className="flex lg:container flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row justify-between">
@@ -31,12 +33,6 @@ export default function Navbar() {
               className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
             >
               Contact
-            </CustomLink>
-            <CustomLink
-              to="thiswillbeadownloadablepdf"
-              className="mr-5 text-sm font-semibold text-gray-700 dark:text-white rounded-xl hover:text-gray-800"
-            >
-              Resume
             </CustomLink>
           </nav>
         </div>
