@@ -58,7 +58,7 @@ const projects = [
 function Work() {
     return (
 
-        <section className="items-center justify-center w-screen min-h-screen flex ">
+        <section className="flex items-center justify-center w-screen min-h-screen">
                 <ProjectCards projects={projects} />
         </section>
 
