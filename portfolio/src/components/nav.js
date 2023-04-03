@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="text-gray-700 bg-white dark:bg-black body-font ">
       <div className="flex lg:container flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row justify-between">
-        <div className="flex">
+        <div className="w-full md:block md:w-auto">
           <CustomLink
             to="javascript.void(0)"
             className="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0"
