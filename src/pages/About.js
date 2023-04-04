@@ -4,11 +4,11 @@ import Typewriter from "typewriter-effect"
 function About() {
     const typewrite = [
         {
-            text: "HELLO I'M",
+            text: "HELLO, I'M",
             name: "TESSA STARKWEATHER",
-            post: "WEB DEVELOPER",
-            design: "BACKEND-ENGINEER",
-            desc: "this is a litte section about me",
+            post: "SOFTWARE DEVELOPER",
+            design: "UX/UI DESIGNER",
+            desc: "I'm a Full-Stack Web Developer with a passion for tinkering.",
         },
     ]
     return (
