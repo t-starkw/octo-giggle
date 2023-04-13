@@ -1,18 +1,12 @@
-# Ptoject title
->### Module xx UNC Coding Bootcamp Challenge - challenge title <br><br>
->  Project description... what did u learn? what problem did u solve <br><br>
+# Portfolio
+>### A place to showcase my work as a developer <br><br>
+>  I've revamped my react portfolio about a dozen times at this point. While this one is still under construction, It is my favorite version by far. I was able to utilize and learn a few new frameworks that I previously had not been exposed to or comfortable with using. UI design is not typically my strong suit, but for this I really had a vision of what I wanted it to look like, and feel that I was able to capture that vision pretty well. I utilized Tailind CSS to design the front end and to incorporate light/dark mode functionality, and was able to incorporate an interactive background effect with Particlesjs. Because Heroku has become so expensive and non-learner friendly, I explored a new way of deployment with Render. <br><br>
 
 ![JavaScript][js-url]
 ![HTML][html-url]
 ![CSS][css-url]
-![Mongo][mongo-url]
-![Express][express-url]
 ![React][react-url]
-![Node][node-url]
-![jswt][jswtoken-url]
-![Apollo-GraphQL][apollo-url]
-![GraphQL][graphql-url]
-![Heroku][heroku-url]
+![TailwindCSS][tw-url]
 
 
 ![Image]()
@@ -23,7 +17,7 @@
 Clone the repository:
 
 ```sh
-git clone git@github.com:t-starkw/graphic-ql.git
+git clone git@github.com:t-starkw/octo-giggle.git
 ```
 
 Install the required dependencies:
@@ -35,16 +29,13 @@ npm install
 Run the project in your local browser:
 
 ```sh
-npm run develop
+npm start
 ```
 
-## Usage
-
-Browse for books by title or author using the search bar on the main page. You must log in or create an account in order to save books to your collection. You can view and edit your collection by selecting the 'Saved Books" navigation item.
 
 ## Deployed Application
 You can view the live application
-[here](https://graphic-ql.herokuapp.com/)
+[here](https://portfolio-ts-osoo.onrender.com/)
 
 ## Meta
 
@@ -56,7 +47,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/t-starkw/graphic-ql/fork>)
+1. Fork it (<https://github.com/t-starkw/octo-giggle/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
