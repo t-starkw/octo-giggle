@@ -37,7 +37,7 @@ function About() {
                         </div>
 
                         <button  className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' data-aos='fade-up-right'>
-                            <a href="https://drive.google.com/file/d/1Mv03g5hAHC5_Q4j_buI-cw-VsvG6whlJ/view?usp=sharing" target="_blank">Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1U95g4p7y8S3pBE3h746sdDM6qqq_RZNn/view?usp=sharing" target="_blank">Download Resume</a>
                             
                         </button>
                     </div>
